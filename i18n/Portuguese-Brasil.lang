@@ -3,6 +3,7 @@
  *  @name Portuguese Brasil
  *  @anchor Portuguese Brasil
  *  @author Julio Cesar Viana Palma
+ *  @author Rodrigo Pan ( rodriformiga )
  */
 
 {
@@ -26,5 +27,20 @@
     "oAria": {
         "sSortAscending": ": Ordenar colunas de forma ascendente",
         "sSortDescending": ": Ordenar colunas de forma descendente"
+    },
+    select: {
+        rows: {
+            _: "%d registros selecionados",
+            0: "",
+            1: "1 registro selecionado"
+        }
+    },
+    buttons: {
+        copyTitle: "Copiar para Área de Transferência",
+        copyKeys: "Pressione <i>CTRL</i> or <i>\u2318</i> + <i>C</i> para copiar os dados da tabela<br>para a área de transferência.<br><br>Para cancelar, clique nessa mensagem ou pressione ESC.",
+        copySuccess: {
+            _: "%d registros copiados",
+            1: "1 registro copiado"
+      }
     }
 }
